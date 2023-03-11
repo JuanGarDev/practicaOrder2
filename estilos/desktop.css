@@ -1,0 +1,107 @@
+@media(min-width: 850px){
+
+    /*Cabecera*/
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    #cabecera .contenedor{
+        
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding: 5px 65px 5px 65px;
+    }
+
+    #cabecera nav{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+
+    #cabecera .logo{
+        font-size: 2.8em;
+    }
+
+    #cabecera a{
+        font-size: 1.4em;
+    }
+
+    /*presentacion*/
+
+    #presentacion .contenedor{
+        padding: 250px 200px;
+
+    }
+
+    #presentacion h3{
+        font-size: 4em;
+    }
+
+    /*inicio*/
+
+    #inicio .contenedor{
+        margin: 0 50px;
+    }
+
+    #inicio h3{
+        font-size: 2.8em;
+    }
+
+    #inicio p{
+        font-size: 1.4em;
+    }
+
+    #mapa {
+        display: none;
+    }
+
+    #mapaDesktop {
+        display: flex;
+        flex-direction: column;
+    
+        margin: 40px 0;
+        border-radius: 15px;
+    }
+
+    /*Platillos*/
+
+    #platillos .contenedor{
+        margin: 0 50px;
+        padding: 100px 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    #platillos h3{
+        font-size: 2.8em;
+    }
+
+    #platillos h4{
+        font-size: 2.2em;
+    }
+
+    #platillos p{
+        margin-top: 10px;
+        font-size: 1.6em;
+    }
+
+    #platillos .menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #platillos .carta{
+        margin: 25px 15px;
+        padding: 150px 50px;
+    }
+
+
+    /*Galeria*/
+
+    #galeria .contenedor{
+        padding: 100px;
+    }
+
+}

@@ -1,0 +1,36 @@
+#inicio .contenedor{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 90hv;
+    padding: 100px 0px;
+    margin: 0 15px;
+    color: #F2EDD5;
+}
+
+#inicio h3{
+    color: #F29727;
+    font-size: 2.2em;
+    padding: 10px 5px;
+}
+
+#inicio p{
+    font-size: 1.2em;
+    padding: 10px 50px;
+    font-weight: normal;
+}
+
+#mapaDesktop{
+    display: none;
+}
+
+#mapa{
+    display: flex;
+    flex-direction: column;
+
+    margin: 40px 0 0 0;
+    border-radius: 15px;
+}
+

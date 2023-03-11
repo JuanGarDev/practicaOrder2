@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0d1117;
+    font-family: 'Roboto';
+}
+
+.contenedor{
+    max-width: 1600px;
+    margin: auto;
+}
+
+header .contenedor{
+    
+    display: flex;
+    flex-direction: column;
+
+    
+    align-items: center;
+    background-color: #0d1117;
+}
+
+header .logo{
+    font-size: 2.6em;
+    font-weight: bold;
+    padding: 15px;
+    color: #F29727;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #F2EDD5;
+    margin: 2px 15px;
+}
+
+header a:hover{
+    color: #F2B05E;
+}

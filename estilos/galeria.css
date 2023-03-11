@@ -1,0 +1,50 @@
+#galeria .contenedor{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 15px;
+
+}
+
+#galeria h4{
+    color: #F2EDD5;
+    font-size: 2.2em;
+    margin: 0 25px;
+}
+
+#galeria .carrusel{
+    margin: 40px 40px;
+    border-radius: 15px;
+    overflow: hidden;   
+}
+
+#galeria img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#galeria ul{
+    display: flex;
+    animation: cambio 15s infinite alternate linear;
+    width: 400%;
+}
+
+#galeria li{
+    list-style: none;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}

@@ -1,0 +1,23 @@
+#presentacion .contenedor{
+    text-align: right;
+    padding: 150px 40px;
+    background-image: 
+    linear-gradient(
+    0deg,
+    rgba(0, 0 , 0, 0.3),
+    rgba(0, 0 , 0, 0.3)
+        ), url(/imagenes/restaurante2.jpg);
+
+    background-position: center;
+    background-size: cover;
+}
+
+#presentacion h3{
+    font-size: 1.8em;
+    color: #F2EDD5;
+}
+
+#presentacion span{
+    font-weight: bold;
+    color: #F29727;
+}
